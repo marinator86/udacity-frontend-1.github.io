@@ -6,13 +6,10 @@
     color: #444;
 }
 
-.box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
+.articlebox {
     padding: 20px;
     font-size: 100%;
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     margin: 10px;
 }

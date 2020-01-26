@@ -1,3 +1,36 @@
 .content {
     height: 100%;
 }
+
+.authorinfo {
+    width: 300px;
+}
+
+.sharebox {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social {
+    background-color: #eee;
+    color: #abc;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 100%;
+    width: 100px;
+    height: 15px;
+    margin: 10px;
+}
+
+.fb {
+    background-color: #395697;
+}
+
+.linkedin {
+    background-color: #2867b2;
+}
+
+.twitter {
+    background-color: #0c7abf;
+}
