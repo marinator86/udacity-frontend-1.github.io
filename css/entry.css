@@ -2,8 +2,41 @@
     height: 100%;
 }
 
+/*TODO add media queries*/
+
 .authorinfo {
-    width: 300px;
+    width: 1fr;
+    max-width: 600px;
+}
+
+.authorContent {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "t t t"
+    "a c c";
+}
+
+.authorTitle {
+    grid-area: t;
+}
+
+.authorAvatar {
+    grid-area: a;
+    width: 120px;
+    min-height: 125px;
+    background-image: url("../img/avatar.jpg");
+    background-repeat: no-repeat;
+}
+
+.authorBio {
+    grid-area: c;
+    font-size: small;
+}
+
+.mainText {
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .sharebox {
