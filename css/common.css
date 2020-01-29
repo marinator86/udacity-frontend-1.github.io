@@ -15,6 +15,10 @@ html, body {
 
 .header {
     width: 100%;
+    background-color: #f5f5f5;
+    border-bottom-width: 1px;
+    border-bottom-color: #aaa;
+    border-bottom-style: solid;
 }
 
 .content {
@@ -32,4 +36,8 @@ html, body {
 
 .footer {
     width: 100%;
+    background-color: #f5f5f5;
+    border-top-width: 1px;
+    border-top-color: #aaa;
+    border-top-style: solid;
 }
