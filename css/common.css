@@ -8,16 +8,18 @@ html, body {
     height: 100%;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: 200px 1fr 100px;
+    justify-items: center;
 }
 
 .header {
-
+    width: 100%;
 }
 
 .content {
     margin: 10px;
+    max-width: 800px;
 }
 
 .box {
@@ -29,5 +31,5 @@ html, body {
 }
 
 .footer {
-
+    width: 100%;
 }
