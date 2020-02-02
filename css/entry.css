@@ -6,12 +6,12 @@
 
 .authorinfo {
     width: 1fr;
-    max-width: 600px;
+    max-width: 40em;
 }
 
 .authorContent {
     display: grid;
-    gap: 10px;
+    gap: 0em;
     grid-template-areas: 
     "t t t"
     "a c c";
@@ -19,17 +19,19 @@
 
 .authorTitle {
     grid-area: t;
+    padding: 0.2em;
 }
 
 .authorAvatar {
     grid-area: a;
-    width: 120px;
-    min-height: 125px;
+    width: 8em;
+    min-height: 8em;
     background-image: url("../img/avatar.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .authorBio {
+    padding-left: 0.2em;
     grid-area: c;
     font-size: small;
 }
@@ -48,12 +50,12 @@
 .social {
     background-color: #eee;
     color: #abc;
-    border-radius: 5px;
-    padding: 13px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 0.8em;
     font-size: 100%;
-    width: 100px;
-    height: 15px;
-    margin: 10px;
+    width: 8em;
+    height: 1.5em;
 }
 
 .fb {
