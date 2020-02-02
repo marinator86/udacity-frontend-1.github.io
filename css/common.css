@@ -9,7 +9,6 @@ html, body {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 1fr 100px;        /*resp*/
     justify-items: center;
 }
 
@@ -23,7 +22,6 @@ html, body {
 
 .content {
     margin: 1em;
-    max-width: 950px;                           /*resp*/
 }
 
 .box {
@@ -39,4 +37,23 @@ html, body {
     border-top-width: 0.1em;
     border-top-color: #aaa;
     border-top-style: solid;
+}
+
+@media (max-width: 30em){
+    .blog {
+        grid-template-rows: 4em 1fr 6em;
+    }
+    .content {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 31em){
+    .blog {
+        grid-template-rows: 8em 1fr 6em;
+    }
+    .content {
+        max-width: 65em;
+    }
 }

@@ -10,7 +10,6 @@
 .articlebox {
     display: grid;
     grid-template-rows: 1fr 2.5em;
-    width: 20em;                            /*resp*/
     height: 12em;
     margin: 1em;
 }
@@ -22,4 +21,16 @@
 .articleboxpic {
     background-image: url("../img/back1.jpg");
     background-size: cover;
+}
+
+@media (max-width: 30em){
+    .articlebox {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 31em){
+    .articlebox {
+        width: 18em;
+    }
 }
