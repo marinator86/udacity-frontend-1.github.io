@@ -23,13 +23,13 @@
     background-size: cover;
 }
 
-@media (max-width: 30em){
+@media (orientation: portrait){
     .articlebox {
         width: 80vw;
     }
 }
 
-@media (min-width: 31em){
+@media (orientation: landscape){
     .articlebox {
         width: 18em;
     }

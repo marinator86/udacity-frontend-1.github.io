@@ -39,7 +39,10 @@ html, body {
     border-top-style: solid;
 }
 
-@media (max-width: 30em){
+@media (orientation: portrait){
+    html {
+        font-size: xx-large;
+    }
     .blog {
         grid-template-rows: 4em 1fr 6em;
     }
@@ -49,7 +52,7 @@ html, body {
     }
 }
 
-@media (min-width: 31em){
+@media (orientation: landscape){
     .blog {
         grid-template-rows: 8em 1fr 6em;
     }
