@@ -1,8 +1,7 @@
 .content {
     height: 100%;
+    padding: 5px;
 }
-
-/*TODO add media queries*/
 
 .authorinfo {
     width: 1fr;
@@ -42,7 +41,7 @@
 }
 
 .sharebox {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
